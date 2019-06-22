@@ -8,29 +8,8 @@
   background-size: cover;
 
   display: flex;
-  /* flex-direction: column; */
-  
-  /*justify-content: flex-end;*/
 }
 
-/*.header > h1 {
-  color: var(--text-color);
-  font-weight: 100;
-  padding: 5rem;
-  /*margin-left: 55vw;
-}
-
-.header > h1 > span {
-  display: block;
-  font-weight: 700;
-  font-family: senon;
-}
-
-.header > .tagline {
-  color: var(--text-color);
-  padding: 3rem;
-  /*margin-left: 55vw;
-}*/
 
 @media all and (max-width: 768px) {
   .header{
@@ -40,15 +19,5 @@
 
   .header > .flex-lema-container, .header > .tagline{
       height: 55vh;
-  
-  }
-
-  /* .header > h1, .header > .tagline { */
-    
-    /* margin: 0;
-    background-color: rgba(255, 255, 255, .5);
-    padding: 1rem .5rem;
-    text-align: center;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, .8); */
-  /* } */
+      }
   }

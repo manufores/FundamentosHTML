@@ -2,7 +2,6 @@
   background-color: var(--bg-color);
   color: var(--text-color);
   display: flex;
-  /*padding: 1rem 2rem;*/
 }
 
 .footer a {
