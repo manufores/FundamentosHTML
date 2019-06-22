@@ -1,0 +1,112 @@
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .nov-one{
+    background-image: url(../img/MIB4.jpg);
+   }
+
+   .nov-two{
+    background-image: url(../img/Aladdin.jpg);
+   }
+
+   .nov-three{
+       background-image: url(../img/xmendf.jpg);
+   }
+
+   .nov-four{
+       background-image: url(../img/rocketman.jpg);
+   }
+  
+  
+/* .one, .seven{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+} */
+
+
+/*.seven{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    /* align-items: center;
+}*/
+
+/* .one:hover, .two:hover, .three:hover, .four:hover{
+  opacity: 0;
+} */
+
+/* .seven:hover, .eight:hover, .nine:hover, .ten:hover{
+    opacity: 0;
+  } */
+
+/* .two:hover{
+    opacity: 0;
+}
+
+.three:hover{
+    opacity: 0;
+} */
+
+/* .two, .eight{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+} */
+
+/* .eight{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+} */
+
+/* .three, .nine{
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.four, .ten{
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+} */
+
+/* .nine{
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+} */
+
+@media all and (max-width: 768px){
+    section{
+        padding: 0;
+    }
+    .grid-container{
+        justify-items: center;
+        grid-template-columns: 1fr;
+       /* grid-template-rows: repeat(auto-fill, minmax(100px, 1fr)); */
+        /* height: 100vh;*/
+    }/*
+    .one, .seven{
+        width: 80vw;
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .two, .eight{
+        width: 80vw;
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+    }
+
+    .three, .nine{
+        width: 80vw;
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+
+    .four, .ten{
+        width: 80vw;
+        grid-column: 1 / 1;
+        grid-row: 4 / 4;
+    } */
+
+
+}

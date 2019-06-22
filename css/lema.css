@@ -1,0 +1,44 @@
+.flex-lema-container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.flex-lema-container > h1 {
+  /* position: absolute;
+  bottom: 30vh; */
+  color: var(--text-color);
+  font-weight: 100;
+  left: 15vw;
+}
+
+.flex-lema-container > .tagline {
+  /* position: absolute;
+  top: 50vh; */
+  color: var(--text-color);
+  left: 15vw;
+}
+
+.flex-lema-container > h1 > span{
+  font-family: senon, 'Times New Roman', Times, serif;
+  color: orange;
+  font-size: 3rem;
+}
+
+@media all and (max-width: 768px) {
+  .flex-lema-container{
+    margin: 0 1rem;
+
+  }
+  .flex-lema-container > h1{
+    text-align: center;
+  }
+
+  .flex-lema-container > .tagline{
+    text-align: center;
+  }
+
+}

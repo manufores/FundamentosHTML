@@ -1,0 +1,37 @@
+.articles{
+    height: 70vh;
+    width: 20vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 5rem;
+  }
+
+
+.articles p{
+    width: 20vw;
+    height: 63vh;
+    color: transparent;
+    background: transparent;
+}
+
+p:hover{
+    color: var(--text-color);
+    background-color: rgba(37, 33, 33, 0.788);
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, .8);
+}
+
+
+
+@media all and (max-width: 768px){
+    .articles{
+        width: 75vw;
+        height: 75vh;
+    }
+
+    .articles p{
+        width: 75vw;
+        padding-top: 1rem;
+    }
+    
+}
