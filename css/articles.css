@@ -15,7 +15,13 @@
     background: transparent;
 }
 
-p:hover{
+.articles p > a{
+    color: transparent;
+    background: transparent;
+}
+
+
+p:hover, p > a:hover{
     color: var(--text-color);
     background-color: rgba(37, 33, 33, 0.788);
     text-align: center;

@@ -32,9 +32,9 @@
   justify-content: flex-end;
 }
 
-.social-list li {
-  /*padding: 2rem;*/
-}
+/* .social-list li {
+  padding: 2rem;
+} */
 
 .social-list i:before {
   font-size: 2rem;

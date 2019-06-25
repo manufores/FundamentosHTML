@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 1em;
+  }
+
+  
+    
+  article {
+    padding: 1em;
+    width: 50vw;
+  }
+
+    
+  header {
+    padding: 51px;
+  }
+  
+  .video {
+    
+    width: 100%;
+    height: auto;
+    }
+  
+  .portada {
+    margin-left: 2rem;
+    background-image: url(../img/xmendf.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  
+
+  @media all and (max-width: 768px){
+    
+    .portada{
+        height: 60vh;
+    }
+    article{
+        width: 100vw;
+    }
+
+    video{
+        width: 100%;
+        height: auto;
+    }
+    .grid{
+        grid-template-columns: auto;
+    }
+}
