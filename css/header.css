@@ -2,7 +2,8 @@
 
 .header {
   height: 100vh;
-  background-color: rgb(53, 48, 48);
+  background-image: url(../img/hero-homepage-2019-1800x1185.jpg);
+  /* background-color: rgba(53, 48, 48, 0.116); */
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;

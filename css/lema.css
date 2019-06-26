@@ -1,9 +1,13 @@
 .flex-lema-container {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
+  background-color: rgba(67, 79, 90, 0.596);
+  /* background: transparent; */
 }
 
 
@@ -11,26 +15,31 @@
   /* position: absolute;
   bottom: 30vh; */
   color: var(--text-color);
+  background: transparent;
   font-weight: 100;
-  left: 15vw;
+  text-align: center;
+  /* left: 15vw; */
 }
 
 .flex-lema-container > .tagline {
   /* position: absolute;
   top: 50vh; */
   color: var(--text-color);
-  left: 15vw;
+  background: transparent;
+  text-align: center;
+  /* left: 15vw; */
 }
 
 .flex-lema-container > h1 > span{
   font-family: senon, 'Times New Roman', Times, serif;
   color: orange;
   font-size: 3rem;
+  background: transparent;
 }
 
 @media all and (max-width: 768px) {
   .flex-lema-container{
-    margin: 0 1rem;
+    margin: 0;
 
   }
   .flex-lema-container > h1{

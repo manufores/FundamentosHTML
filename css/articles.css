@@ -16,16 +16,20 @@
 }
 
 .articles p > a{
-    color: transparent;
+    text-decoration: none;
+    color: inherit;
     background: transparent;
 }
 
 
-p:hover, p > a:hover{
+p:hover{
     color: var(--text-color);
     background-color: rgba(37, 33, 33, 0.788);
     text-align: center;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, .8);
+}
+
+p > a:hover{
+    color: rgb(255, 255, 255);
 }
 
 
