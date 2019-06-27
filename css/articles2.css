@@ -74,7 +74,7 @@
 }
 
 
-p:hover{
+div > p:hover{
     color: var(--text-color);
     background-color: rgba(37, 33, 33, 0.788);
     text-align: center;
