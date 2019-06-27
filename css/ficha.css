@@ -36,6 +36,10 @@
     .portada{
         height: 60vh;
     }
+
+    .texto{
+      width: 95vw;
+    }
     article{
         width: 100vw;
     }
