@@ -1,0 +1,55 @@
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    /* grid-gap: 1rem; */
+    grid-auto-rows: 1fr 1fr;
+    grid-row-gap: 3rem;
+    align-items: baseline;
+    
+  }
+
+  /* .nov-one{
+    : url(../img/MIB4.jpg);
+   } */
+
+   /* .nov-two{
+    background-image: url(../img/Aladdin.jpg);
+   }
+
+   .nov-three{
+       background-image: url(../img/xmendf.jpg);
+   }
+
+   .nov-four{
+       background-image: url(../img/rocketman.jpg);
+   }
+
+   .pel-one{
+       background-image: url(../img/hansolo.jpg);
+   }
+  
+   .pel-two{
+       background-image: url(../img/bohemianrapsody.jpg);
+   }
+
+   .pel-three{
+       background-image: url(../img/crimenes.jpg);
+   }
+
+   .pel-four{
+       background-image: url(../img/losincreibles.jpg);
+   }
+   */
+
+
+@media all and (max-width: 768px){
+    section{
+        padding: 0;
+    }
+    .grid-container{
+        justify-items: center;
+        grid-template-columns: 1fr;
+       
+    }
+}

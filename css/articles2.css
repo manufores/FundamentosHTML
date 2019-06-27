@@ -1,0 +1,105 @@
+/* .articles{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 100%; */
+    /* height: 100vh;
+    width: 20vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 5rem; */
+  /* } */
+.titulo{
+    grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.portada{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+  /* .titulo{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+  } */
+
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+
+.portada > p{
+    position: absolute;
+    height:inherit;
+    /* top: 10%; */
+    padding: 1rem;
+    /* left: 50%; */
+    /* transform: translate(0%, 0%); */
+    color: transparent;
+    background: transparent;
+    top: 0%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* width: 20px; */
+}
+
+
+/* .articles p{
+    width: 20vw;
+    height: 63vh;
+    padding-top: 1rem;
+    color: transparent;
+    background: transparent;
+}*/
+
+.articles p > a{
+    /* text-decoration: none; */
+    color: inherit;
+    background: transparent;
+}
+
+
+p:hover{
+    color: var(--text-color);
+    background-color: rgba(37, 33, 33, 0.788);
+    text-align: center;
+}
+
+p > a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media all and (max-width: 768px){
+    .titulo{
+        width: 75vw;
+        height: auto;
+    }
+
+    .portada{
+        width: 75vw;
+        margin-bottom: 2rem;
+
+    }
+    /* .articles p{
+        width: 75vw;
+        padding-top: 1rem;
+    } */
+    
+}
