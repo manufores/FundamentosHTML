@@ -6,11 +6,10 @@
 
   
     
-  article {
+  /* article {
     padding: 1em;
-    width: 100%;
-    height: 100%;
-  }
+    width: 50vw;
+  } */
 
     
   header {
@@ -21,32 +20,47 @@
     height: auto;
   }
   .video {
-    
     width: 70vw;
     height: auto;
     align-items: center;
     }
   
-  .portada {
-    margin-left: 2rem;
+  /* .portada {
+      heigth:50vh;
+      width:75vw; */
+    /* margin-left: 2rem;
     background-image: url(../img/xmendf.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
+  /* } */
+
+  img{
+    height:auto;
+    width:20vw;
+  }
+
+  .relacion > a > img{
+      height: 30vh;
+      width: auto;
   }
   
   
 
   @media all and (max-width: 768px){
     
-    .portada{
+    /* .portada{
         height: 60vh;
-    }
-
+    } */
+    
     .texto{
-      width: 95vw;
+      width: 90vw;
     }
     article{
         width: 100vw;
+    }
+
+    .video{
+        width: 100%;
     }
 
     video{
@@ -55,5 +69,9 @@
     }
     .grid{
         grid-template-columns: auto;
+    }
+
+    img{
+        width: 70vw;
     }
 }
